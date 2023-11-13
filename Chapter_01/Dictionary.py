@@ -25,6 +25,9 @@ print(services.items())
 
 keys = services.keys()
 print(keys)
-services.has_key('http')
+# Depracated -> services.has_key('http')
+
+for key,value in services.items():
+    print(key,value)
 
 
