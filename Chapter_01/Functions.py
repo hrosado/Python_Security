@@ -1,11 +1,14 @@
 """Python Functions and managing exceptions."""
 
 # Example syntax in book doesnt provide a good example
-# def contains(sequence, items):
-#     for element in sequence:
-#         if element == item:
-#             return True
-#     return False
+# sequence = [100,200,300,400]
+def contains(sequence, item):
+    for element in sequence:
+        if element == item:
+            return True
+    return False
+
+print( contains([100,200,300,400], 200))
 
 # Managing exceptions
 # Divide by zero exception
